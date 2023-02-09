@@ -1,0 +1,36 @@
+.banner {
+  max-width: 100%;
+  background-image: url(../../images/background.png);
+  background-size: cover;
+  background-position: center;
+  height: 650px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.banner-infos{
+  color: white;
+  width: 900px;
+}
+
+.banner-infos h1{
+  font-size: 36px;
+}
+
+.banner-infos p {
+  font-weight: 400;
+  font-size: 22px;
+  font-family: 'Open Sans';
+  color: rgba(255, 255, 255, 0.607);
+  margin: 20px 0px;
+}
+.banner-infos a {
+  background-color: #1CDD87;
+  color: white;
+  font-size: 16px;
+  padding: 20px 40px;
+  border-radius: 30px;
+  text-transform: capitalize;
+  display: inline-block;
+}
